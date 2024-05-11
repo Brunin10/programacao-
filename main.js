@@ -3,6 +3,7 @@ const divRelogio = document.querySelector('.relogio');
 const inputNome = document.querySelector('.inputNome');
 const inputPeso = document.querySelector('.inputPeso');
 const inputAltura = document.querySelector('.inputAltura');
+const botao = document.querySelector('button');
 
 let numeroAleatorio;
 
@@ -15,6 +16,10 @@ let numeroPiso;
 numeroPiso = Math.floor(4.89);
 
 console.log(`Número piso: ${numeroPiso}`);
+
+botao.addEventListener('click', function (evento){
+    evento.preventDefault();
+})
 
 const dataInicial = new Date();
 console.log(dataInicial);
