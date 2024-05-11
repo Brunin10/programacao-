@@ -19,7 +19,7 @@ console.log(`Número piso: ${numeroPiso}`);
 
 botao.addEventListener('click', function (evento){
     evento.preventDefault();
-})
+});
 
 const dataInicial = new Date();
 console.log(dataInicial);
