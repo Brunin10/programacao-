@@ -33,7 +33,7 @@ botao.addEventListener('click', function (evento){
     console.log(resultado);
 
     divResultado.classList.add('resultadoStyle');
-    divResultado.innerHTML = `${nome}, seu resultado é ${resultado}!`;
+    divResultado.innerHTML = `${nome}, seu resultado é ${resultado.toFixed(2)}!`
 });
 
 function calculaIMC (peso, altura) {
