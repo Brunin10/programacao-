@@ -25,9 +25,16 @@ botao.addEventListener('click', function (evento){
     evento.preventDefault();
 
     nome = inputNome.value;
-    peso = inputPeso.value;
-    altura = inputAltura.value;
+    peso = Number(inputPeso.value);
+    altura = Number(inputAltura.value);
+
+    let resultado = calculaIMC(peso, altura);
 });
+
+function calculaIMC (peso, altura) {
+    let imc = peso/(altura * altura);
+    return imc;
+}
 
 const dataInicial = new Date();
 console.log(dataInicial);
