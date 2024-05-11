@@ -38,9 +38,11 @@ const relogio = setInterval(function () {
     atualizaRelogio();
 }, 1000);
 
+/*
 setTimeout(function () {
     clearInterval(relogio);
 }, 10000);
+*/
 
 function adicionaZero (numero){
     if(numero < 10){
