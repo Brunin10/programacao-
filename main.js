@@ -23,6 +23,10 @@ console.log(`Número piso: ${numeroPiso}`);
 
 botao.addEventListener('click', function (evento){
     evento.preventDefault();
+
+    nome = inputNome.value;
+    peso = inputPeso.value;
+    altura = inputAltura.value;
 });
 
 const dataInicial = new Date();
