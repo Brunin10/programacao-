@@ -1,6 +1,5 @@
 //elementos capturados do HTML
-const divRelogio = document.querySelector
-
+const divRelogio = document.querySelector(`.relogio`);
 
 
 let numeroAleatorio;
@@ -30,6 +29,7 @@ function atualizaRelogio () {
     segundos = adicionaZero(segundos);
     
     console.log(`${horas}:${minutos}:${segundos}`);
+    divRelogio.innerHTML = (`${horas}:${minutos}:${segundos}`);
 }
 
 atualizaRelogio();
