@@ -1,6 +1,8 @@
 //elementos capturados do HTML
-const divRelogio = document.querySelector(`.relogio`);
-
+const divRelogio = document.querySelector('.relogio');
+const inputNome = document.querySelector('.inputNome');
+const inputPeso = document.querySelector('.inputPeso');
+const inputAltura = document.querySelector('.inputAltura');
 
 let numeroAleatorio;
 
