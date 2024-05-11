@@ -29,6 +29,7 @@ botao.addEventListener('click', function (evento){
     altura = Number(inputAltura.value);
 
     let resultado = calculaIMC(peso, altura);
+    console.log(resultado);
 });
 
 function calculaIMC (peso, altura) {
