@@ -4,6 +4,7 @@ const inputNome = document.querySelector('.inputNome');
 const inputPeso = document.querySelector('.inputPeso');
 const inputAltura = document.querySelector('.inputAltura');
 const botao = document.querySelector('button');
+const divResultado = document.querySelector('.resultado');
 
 let nome;
 let peso;
