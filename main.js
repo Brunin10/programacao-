@@ -5,6 +5,10 @@ const inputPeso = document.querySelector('.inputPeso');
 const inputAltura = document.querySelector('.inputAltura');
 const botao = document.querySelector('button');
 
+let nome;
+let peso;
+let altura;
+
 let numeroAleatorio;
 
 numeroAleatorio = Math.floor(Math.random() * 10);
